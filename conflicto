@@ -24,7 +24,9 @@ int main (void)
     //Pedimos al usuario que introduzca el valor del ángulo(en grados) del cual quiere saber las
     //funciones trigonométricas del ángulo triple.
 
-    cout << "Introduzca el angulo (en grados) del cual quiere saber las funciones trigonometricas del angulo triple: ";
+ 
+    cout << "Introduzca el ángulo (en grados) del cual quiere saber las funciones trigonometricas del angulo triple: ";
+ 
     cin >> grados;
 
     //Transformamos el ángulo de grados a radianes, que es como se trabajan los ángulos en c++.
